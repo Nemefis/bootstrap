@@ -3,6 +3,7 @@ body {
     justify-content: center;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .row {
     margin: 0!important;
@@ -37,6 +38,9 @@ body {
 .contact {
     height: 200px;
 }
+.contact p span {
+    font-size: 14px;
+}
 .education {
     height: 200px;
 }
@@ -44,12 +48,7 @@ body {
     height: 200px;
 }
 .profile {
-    height: 200px;
-    background-color: aquamarine;
-}
-.experience {
-    height: 500px;
-    background-color: red;
+    padding: 0px 40px 40px 40px;
 }
 .skills {
     height: 200px;
@@ -80,9 +79,62 @@ h1 {
 .styles-left {
     color: #fff;
     padding-left: 40px;
+    padding-top: 40px;
+}
+.styles-left p {
+    line-height: 20px;
 }
 .left h3 {
     border-bottom: 3px solid #fff;
     padding-bottom: 15px;
     width: 35px;
 }
+.experience-wrapper {
+    display: flex;
+}
+.experience-left {
+    width: 40%;
+}
+.experience-right {
+    width: 60%;
+}
+.experience {
+    padding: 0px 40px 0px 40px;
+}
+.profile h2 {
+    color: #2c333d;
+}
+.experience h2 {
+    color: #2c333d;
+}
+h1 {
+    color: #2c333d;
+}
+.right p {
+    line-height: 25px;
+}
+.right h2 {
+    border-bottom: 3px solid #2c333d;
+    width: 50px;
+    padding-bottom: 20px;
+}
+
+.language-wrap {
+    display: flex;
+    align-items: center;
+}
+.language-wrap p {
+    width: 25%;
+}
+.white {
+    background-color: white;
+  }
+.some-color {
+    background-color: #585e6a;
+  }
+.sphere {
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    margin: 5%;
+  }

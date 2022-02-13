@@ -1,13 +1,16 @@
 .table-hover tbody tr:hover  {
-    background-color: blue !important;
+
 }
 .table-dark.table-striped tbody tr:nth-of-type(odd) {
-    background-color: red;
+
 }
 
 .table-dark.table-striped tbody tr:nth-of-type(odd) {
-    background-color: black;
+
 }
 body {
-    background: no-repeat center/100% url("https://html5book.ru/wp-content/uploads/2015/06/background28.jpg");
+}
+
+.alert-success, .alert-info, .alert-warning, .alert-danger, .alert-primary, .alert-secondary {
+  
 }

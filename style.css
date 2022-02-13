@@ -1,0 +1,9 @@
+.btn-primary:hover {
+    background-color: #000;
+}
+.btn-primary {
+    color: aqua !important;
+}
+.btn-outline-light {
+    color: #000 !important;
+}

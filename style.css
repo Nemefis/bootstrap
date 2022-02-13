@@ -14,3 +14,6 @@ body {
 .alert-success, .alert-info, .alert-warning, .alert-danger, .alert-primary, .alert-secondary {
   
 }
+.btn-primary {
+    background-color: pink !important;
+}

@@ -7,3 +7,6 @@
 .btn-outline-light {
   color: #000 !important;
 }
+.card {
+    width: 400px;
+}

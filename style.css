@@ -1,12 +1,11 @@
-.btn-primary:hover {
-  background-color: #000;
-}
-.btn-primary {
-  color: aqua !important;
-}
-.btn-outline-light {
-  color: #000 !important;
-}
 .card {
-    width: 400px;
+    width: 30%;
+    margin-bottom: 10px;
+}
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

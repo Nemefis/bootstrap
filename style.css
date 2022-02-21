@@ -1,5 +1,4 @@
 .card {
-    width: 30%;
     margin-bottom: 10px;
 }
 .card-wrapper {
@@ -8,4 +7,13 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.btn:hover {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;    
+}
+
+.card:hover {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    opacity: 2;
 }
